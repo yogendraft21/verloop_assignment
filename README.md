@@ -47,26 +47,26 @@
 
    Method: POST
    city: Name of the city for which weather data is requested.
-   output_format: Desired output format, either "json" or "xml". ```
+   output_format: Desired output format, either "json" or "xml".
 
 ** Response: **
 
-```bash
-   JSON Format:
-{
-    "Weather": "<weather_info>",
-    "Latitude": "<latitude>",
-    "Longitude": "<longitude>",
-    "City": "<city_name>"
-}```
-```bash
-XML Format:
-<?xml version="1.0" encoding="UTF-8" ?>
-<root>
-    <Weather><weather_info></Weather>
-    <Latitude><latitude></Latitude>
-    <Longitude><longitude></Longitude>
-    <City><city_name></City>
-</root>```
+   ```bash
+      JSON Format:
+   {
+       "Weather": "<weather_info>",
+       "Latitude": "<latitude>",
+       "Longitude": "<longitude>",
+       "City": "<city_name>"
+   }
+   ```bash
+   XML Format:
+   <?xml version="1.0" encoding="UTF-8" ?>
+   <root>
+       <Weather><weather_info></Weather>
+       <Latitude><latitude></Latitude>
+       <Longitude><longitude></Longitude>
+       <City><city_name></City>
+   </root>
 
 **Replace placeholders <city_name>, <json_or_xml>, <weather_info>, <latitude>, and <longitude> with appropriate values when making requests.**
