@@ -24,9 +24,9 @@
 
 4. **Set up the environment variables:**
 
- ```bash
- Create a .env file in the root directory of the project and add your RapidAPI key:
- RAPIDAPI_KEY=<your_rapidapi_key>
+    ```bash
+    Create a .env file in the root directory of the project and add your RapidAPI key:
+    RAPIDAPI_KEY=<your_rapidapi_key>
 
 5. **Run the FastAPI server:**
 
@@ -34,7 +34,7 @@
    uvicorn main:app --reload
    The server will start running on http://127.0.0.1:8000 by default.
 
-6. **Make a POST request to the /getCurrentWeather endpoint with the following JSON payload:**
+7. **Make a POST request to the /getCurrentWeather endpoint with the following JSON payload:**
 
 
    ```bash
